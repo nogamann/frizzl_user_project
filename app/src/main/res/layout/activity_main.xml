@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?><android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/white" tools:context="co.frizzle.frizzleproject1.MainActivity"><LinearLayout android:id="@+id/linearLayout" android:layout_width="0dp" android:layout_height="@dimen/app_bar_height" android:background="@color/frizzle_purple" android:gravity="center" android:orientation="horizontal" android:paddingEnd="20dp" android:paddingStart="20dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"><ImageView android:id="@+id/app_icon" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1" android:src="@drawable/ic_tutorial_app_2" /><TextView android:id="@+id/app_name_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="bxbcbcbf fvfb fbf" android:textAppearance="@style/Text.Title.Light" /></LinearLayout><GridLayout android:id="@+id/gridLayout" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/linearLayout">
+
+    <Button
+        android:id="@+id/button_id0"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_margin="10dp"
+        android:layout_row="0"
+        android:background="@drawable/user_button_background"
+        android:backgroundTint="#f4f4f4"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:text="NEW BUTTON"
+        android:textColor="#535264"
+        android:textSize="18sp" /><TextView android:id="@+id/text_view0" android:paddingStart="16dp" android:layout_column="0" android:text="NEW TEXT" android:textColor="#535264" android:layout_margin="10dp" android:layout_width="150dp" android:textSize="18sp" android:layout_height="wrap_content" android:background="@drawable/user_text_view_background" android:padding="10dp" android:paddingEnd="16dp" android:layout_row="0" android:fontFamily="serif" /><ImageView android:id="@+id/image_view0" android:paddingStart="16dp" android:layout_height="70dp" android:background="@drawable/polly_3" android:padding="10dp" android:layout_column="0" android:paddingEnd="16dp" android:layout_width="70dp" android:layout_margin="10dp" android:layout_row="1" /></GridLayout><LinearLayout android:id="@+id/backToFrizzlButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent" style="@style/Button.BackToFrizzl"><ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginEnd="8dp" android:scaleType="centerInside" android:src="@drawable/ic_back_to_frizzl_arrow" /><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Back To " style="@style/Text.BackToFrizzl" /><ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_frizzle_logo_horizontal_small" /></LinearLayout></android.support.constraint.ConstraintLayout><!--<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>-->
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@color/white"-->
+    <!--tools:context="com.example.noga.myapplication">-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/linearLayout"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="@dimen/app_bar_height"-->
+        <!--android:background="@color/frizzle_purple"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:paddingEnd="20dp"-->
+        <!--android:paddingStart="20dp"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/app_icon"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:src="@drawable/ic_tutorial_app_5" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/app_name_title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text=""-->
+            <!--android:textAppearance="@style/Text.Title.Light" />-->
+    <!--</LinearLayout>-->
+
+    <!--<GridLayout-->
+        <!--android:id="@+id/gridLayout"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/backToFrizzlButton"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/linearLayout">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/text_view0"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_row="0"-->
+            <!--android:background="@drawable/user_text_view_background"-->
+            <!--android:fontFamily="serif"-->
+            <!--android:padding="10dp"-->
+            <!--android:paddingEnd="16dp"-->
+            <!--android:paddingStart="16dp"-->
+            <!--android:text="NEW TEXT"-->
+            <!--android:textColor="#535264"-->
+            <!--android:textSize="20sp" />-->
+    <!--</GridLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/backToFrizzlButton"-->
+        <!--style="@style/Button.BackToFrizzl"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:scaleType="centerInside"-->
+            <!--android:src="@drawable/ic_back_to_frizzl_arrow" />-->
+
+        <!--<TextView-->
+            <!--style="@style/Text.BackToFrizzl"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Back to " />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/ic_frizzle_logo_horizontal_small" />-->
+    <!--</LinearLayout>-->
+<!--</android.support.constraint.ConstraintLayout>-->
