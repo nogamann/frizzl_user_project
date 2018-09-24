@@ -1,4 +1,4 @@
-package com.example.noga.myapplication;
+package com.frizzl.frizzlproject3;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

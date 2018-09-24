@@ -1,4 +1,4 @@
-package com.example.noga.myapplication;
+package com.frizzl.frizzlproject3;
 
 import org.junit.Test;
 

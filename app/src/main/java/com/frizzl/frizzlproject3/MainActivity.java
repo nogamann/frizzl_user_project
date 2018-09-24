@@ -1,4 +1,4 @@
-package com.example.noga.myapplication;
+package com.frizzl.frizzlproject3;
 
 import android.content.ActivityNotFoundException;
 import android.content.ComponentName;
